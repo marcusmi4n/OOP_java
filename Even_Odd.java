@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Numbers{
+public class Even_Odd{
     public static void main(String[] args){
         Scanner n = new Scanner(System.in);
         //Number input line

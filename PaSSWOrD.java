@@ -3,13 +3,13 @@ import java.util.Scanner;
 
 public class PaSSWOrD {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         String correctPassword = "Marcus";
         int attempts = 3;
 
         while (attempts > 0) {
             System.out.println("ENTER PASSWORD: ");
-            String input = scanner.nextLine();
+            String input = sc.nextLine();
 
             if (input.equals(correctPassword)) {
                 System.out.println("SUCCESS!");
@@ -22,6 +22,6 @@ public class PaSSWOrD {
                 System.out.println("Account  blocked.");
             }
         }
-        scanner.close();
+        sc.close();
     }
 }

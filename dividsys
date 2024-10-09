@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class dividsys{
+    public static void main(String[] args) {
+        Scanner nm = new Scanner(System.in);
+
+        System.out.println("DIVIDING NUMBERS");
+
+        System.out.println("ENTER NUMERATOR NUMBER:");
+        int num = nm.nextInt();
+
+        System.out.println("ENTER DENOMINATOR NUMBER:");
+        int num1 = nm.nextInt();
+
+        if (num1 == 0){
+            System.out.println("Can't divide by zero!!");
+        } else {
+            int divide = num / num1;
+
+            System.out.println("DIVISION: "+ divide );
+        }
+         
+        nm.close();
+
+    }
+}
